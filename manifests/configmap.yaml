@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubewatch-config
+  namespace: sample-app-namespace-1745645327867
+  labels:
+    app.kubernetes.io/name: kubewatch
+    kubernetes.azure.com/generator: devhub
+data:
